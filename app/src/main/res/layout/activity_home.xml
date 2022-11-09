@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_wallpaper"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/tv_username_home"
+        style="@style/st_title1"
+        android:layout_width="wrap_content"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80px"
+        android:layout_marginBottom="80px"
+        android:gravity="center|center_horizontal"
+        android:padding="20px"
+        android:text="Home"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_add_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Add"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_show_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Show"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Log out"
+        android:textSize="20sp" />
+</LinearLayout>
